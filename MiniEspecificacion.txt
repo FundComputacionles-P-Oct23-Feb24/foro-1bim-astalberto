@@ -1,0 +1,18 @@
+Generar un programa que pida al usuario crear una contraseña, preguntar al usuario hasta que introduzca la contraseña correcta.
+1.  Inicio
+2.  bandera, l <--  true
+3.  password, x(100) [{A-Z], {a-z}, {0-9}]
+4.  a, x(100) [{A-Z}, {a-z}, {0-9}]
+5.  << "Ingrese la nueva contraseña"
+6.  >> password
+7.  Mientras bandera == true entonces
+8.  	<< "Ingrese la contraseña."
+9.  	>> a
+10. 		Si a == password entonces
+11. 			<< "Contraseña correcta, bienvenido o bienvenida."
+12. 			bandera == false
+13. 		De lo contrario
+14.			<< "Contraseña incorrecta, inténtelo de nuevo."
+15.		FinSi
+16. FinMientras
+17. Fin
